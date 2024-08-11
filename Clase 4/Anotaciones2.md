@@ -25,6 +25,24 @@ EJEMPLO: <label for="Nombre">Ingrese su nombre:</label>
 # En mozilla en la solapa input estan todos los inputs que se usan.
 # Todos los input menos el submit deben tener el atributo "name" para desp identificarlo en javascrip
 
+<input Radio>= genera un circulo para poder elegir opciones, para que se pueda selecionar uno a la vez, todos tienen que tener el mismo name:
+Ej= <label for="html">HTML</label>
+        <input type="radio" id="html" name="Elegi1">
+        <label for="css">CSS</label>
+        <input type="radio" id="css" name="Elegi1">
+
+<chekbox> Si queremos un selector multiple usamos <input checkbox>
+
+<selec> y <option> = desplega una lista para elegir. Para poner un atributro por defecto(que aparezca siempre primero) le agregamos "selected", y una vez que elijan una opcion y salga la opcion por defecto, la tenemos que desabilitar con la opcion disabled.
+EJ: <label for="pais">Seleccionar un pais</label>
+        <label for="pais">Seleccionar un pais</label>
+        <select name="pais" id="pais">
+            <option value="AR">Argentina</option>
+            <option value="BR">Brasil</option>
+            <option value="FR">Francia</option>
+            <option value="NULL" selected disabled>No seleccionado</option>
+        </select>
+En name y id ponemos lo mismo. El value es lo que llega al servidor, no afecta al usuario.
 
 
 
