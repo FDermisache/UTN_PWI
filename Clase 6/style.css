@@ -1,0 +1,63 @@
+h1,h2{
+    color: black;
+    background-color: aqua;
+    font-size: 33px;
+}
+/*selector de clase */
+.titulo-especial{
+    color: blueviolet;
+    background-color: bisque;
+}
+.subrayado{
+    text-decoration: 1px solid underline;
+}
+/*Selector de id*/
+#titulo-super-especial{
+    color: blue;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: blueviolet;
+    font-size: 33px;
+    letter-spacing: 5px; /* Espaciado de letras*/
+    word-spacing: 10px; /* Darle separacion entre cada palabra, se puede usar valores negativos para que se acerque tbm */
+    text-decoration:rgb(15, 49, 114) 3px dashed overline ; /*  Subrayar: Recibe 4 valores, color,
+    ancho,
+    tipo: solid,wavy,dashed,dotted,double
+    ubicacion: overline(arriba), line-throug(en el medio), underline(abajo) */
+    text-align: center; /* Ubicacion del texto, centrado, a un costado es como word */
+    text-shadow:5px 5px 0px rgb(228, 222, 222) ;
+    /* Permite modificar la sombra de un texto,Recibe 4 valores(Se pueden poder varias sombras en un texto:
+    Eje x:(Positivo derecho, Negativo izq)
+    Eje y: ( Positivo abajo, Negativo arriba)
+    difuminado:
+    color:
+    */
+    
+
+}
+
+p{
+    line-height: 25px ; /* Espaciado entre linea de texto */
+    text-align: justify; /* Hace que todas las lineas de texto terminen en el mismo lugar */
+
+}
+
+a{
+    text-decoration: none; /* Sacar el subrayado al ancla  */
+    box-shadow:1px 1px 3px rgb(152, 241, 8); 
+    /* Sombra para cajas
+    Eje x;
+    Eje y;
+    Difuminado;
+    Color;
+    Inset; Sombra interna(neumorphismo)
+
+    
+    
+    
+    */
+}
