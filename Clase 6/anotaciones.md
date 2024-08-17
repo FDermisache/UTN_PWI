@@ -62,7 +62,11 @@ Eje y: ( Positivo abajo, Negativo arriba)
 difuminado:
 color:
 Pagina para probar y no tocar codigo: cssgenerator.org
-
+-font-size: Tamaño del texto o titulo
+-text aling: mover el texto ( left: Alinea el texto por la izquierda.
+right: Alinea el texto por la derecha.
+center: Centra el texto.)
+-font-family: Cambiar la letra(arial,etc.)
 
 
 Propiedades de texto
