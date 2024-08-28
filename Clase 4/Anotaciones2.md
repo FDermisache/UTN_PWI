@@ -34,7 +34,7 @@ Ej= <label for="html">HTML</label>
 <chekbox> Si queremos un selector multiple usamos <input checkbox>
 
 <selec> y <option> = desplega una lista para elegir. Para poner un atributro por defecto(que aparezca siempre primero) le agregamos "selected", y una vez que elijan una opcion y salga la opcion por defecto, la tenemos que desabilitar con la opcion disabled.
-EJ: <label for="pais">Seleccionar un pais</label>
+EJ: 
         <label for="pais">Seleccionar un pais</label>
         <select name="pais" id="pais">
             <option value="AR">Argentina</option>

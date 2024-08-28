@@ -81,12 +81,3 @@ El loop si se usa en el video. Tener en cuenta que el video tarda en cargar ya q
 
 
 
-<li> <a href="">Primeros pasos con HTML</a></li>
-                <li><a href="">¿Que hay en la cabecera?Metadatos en HTML</a></li>
-                <li><a href="">Fundamentos de texto en HTML</a></li>
-                <li><a href="">Crear Hipervinculos</a></li>
-                <li><a href="">Formateo de texto avanzado</a></li>
-                <li><a href="">Estructura web y documentacion</a></li>
-                <li><a href="">Depurar en HTML</a></li>
-                <li><a href="">Marcando una Carta</a></li>
-                <li><a href="">Estructuracion de una pagina de contenido</a></li>

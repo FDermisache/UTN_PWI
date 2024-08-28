@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+font-family: "DM Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+
+body{
+    display: flex;
+    background-color: rgb(209, 209, 209);
+}
+
+
+
+.padre{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    border: 2px solid red;
+    background-color: white;
+}
+.padre .hijo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.atajo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p{
+    font-family: "DM Sans", sans-serif;
+font-weight: 300;
+font-size: 15px;
+}
+
+span{
+    display: flex;
+    justify-content: space-between;
+    color: blueviolet;
+    margin-left: 120px;
+}

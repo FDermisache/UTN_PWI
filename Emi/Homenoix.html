@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homenoix</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mostrar Imagen</title>
+        <style>
+            #miImagen {
+                display: none; /* La imagen está oculta por defecto */
+            }
+        </style>
+    </head>
+    <body>
+        <button id="miBoton">Caracteristicas</button>
+        <img id="miImagen" src="./homenoix.png" alt="Imagen">
+    
+        <script>
+            document.getElementById('miBoton').addEventListener('click', function() {
+                var imagen = document.getElementById('miImagen');
+                if (imagen.style.display === 'none') {
+                    imagen.style.display = 'block'; // Muestra la imagen
+                } else {
+                    imagen.style.display = 'none'; // Oculta la imagen si ya está visible
+                }
+            });
+        </script>
+    </body>
+    </html>
+    
+</body>
+</html>

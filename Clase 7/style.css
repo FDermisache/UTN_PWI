@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box; 
+}
+
+.caja{
+    /* Determinamos las dimensiones del contenido de mi caja */
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* Ponemos el padding cuando queremos que haya un espacio entre el texto y el borde de la caja, en este caso le indicamos que queremos una separacion a la derecha de 10 pixeles, la pagina paso de ser 200x200 a 210x200, cada vez que le agrege un padding(no importa si arriba,abajo,izq,derech) se va a sumar a los pixeles del contenido*/
+    padding-left: 10px;
+    /* Para que no aumente el tamaño del contenido, ya que por lo general tiene un tamaño especifico, se usa la propiedad box-sizing:border-box lo que hace esto es que se toma el 200x200 desde el borde, esto hace que el padding se va a contar del borde para dentro, esto hace que no modifque el valor apesar de poner los padding. Se recomienda ponerlo globalmente para todas las etiquetas.*/
+    /* Para no tener que estar escribiendo 4 etiquetas padding left,right,etc. Directamente ponemos padding 10px(esto hace que de todos los lados tenga 10px). 
+    Ejem: padding: 10px 
+    Si le ponemos dos valores el primer valor va a ser verticalmente(arriba,abajo) y el segundo horizontalmente(izq,derecga)
+    Ejem: padding: 10px 20px;
+    Si le ponemos 3 valores, el primer valor va hacer hacia arriba, el segundo horizontal(ambos lados) y el tercero padding hacia abajo
+    Ejem: padding 10px 20px 30px
+    Si ponemos los 4 valores 1.Arriba 2.derecha 3.abajo 4. izquierda
+    Ejem: padding 10px 20px 30px 40px
+    */
+    border:3px solid black;
+    /* Se puede ir cambiando los bordes izq,derecha,arriba y abajo EJ: */
+    border-left: 3px dotted yellow;
+    border-right: none;/* Le podemos poner que de un lado no tenga borde */
+    margin-left: 20px; /* Se cumple al igual que padding la abreviatura de escribir los valores. */
+}
+
+.btn{
+    padding: 20px;
+    margin: 50px;
+}
+.link{
+    margin-top: 90px;
+    padding: 10px;
+    background-color: red;
+    width: 700px;
+} /* la etiqueta del ancla funciona mal con el margin,padding, el alto y el ancho */

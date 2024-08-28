@@ -53,7 +53,7 @@ Para poder usar los estilos en varios archivos,creamos una carpeta llamada "styl
 -letter-spacing: Espacio entre palabras
 -word-spacing: Separacion entre cada letra
 -text-decoration: Recibe 4 atributos(archivo css)
--line-height: Esoaciado entre linea de texto
+-line-height: Espaciado entre linea de texto
 -text-aling: Hace que todas las oraciones terminen en la misma linea
 -text-shadow:5px 5px 0px red ;
 Permite modificar la sombra de un texto,Recibe 4 valores(Se puede usar varias veces en el mismo texto):
@@ -67,7 +67,13 @@ Pagina para probar y no tocar codigo: cssgenerator.org
 right: Alinea el texto por la derecha.
 center: Centra el texto.)
 -font-family: Cambiar la letra(arial,etc.)
-
+-box shadow:1px 1px 3px rgb(152, 241, 8); 
+    /* Sombra para cajas
+    Eje x;
+    Eje y;
+    Difuminado;
+    Color;
+    Inset; Sombra interna(neumorphismo)
 
 Propiedades de texto
 Propiedades de background

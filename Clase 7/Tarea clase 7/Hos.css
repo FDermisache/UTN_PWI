@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+font-family: "DM Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+
+box-sizing: border-box;
+padding: 0px;
+}
+
+.btn-ing{
+color: black;
+font-family: "DM Sans", sans-serif;
+font-weight: 700;
+font-size: 14px;
+text-align: center;
+text-decoration: none;
+border: 2px solid black;
+border-radius: 5px;
+line-height: 1px;
+padding: 7px 7px;
+margin: 15px 5px 15px 5px;
+}
+
+.Emp{
+    color: #FFFFFF;
+font-family: "DM Sans", sans-serif;
+font-weight: 700;
+font-size: 13px;
+text-align: center;
+width: 120px;
+height: 35px;
+border: transparent;
+border-radius: 5px;
+background-color: #673DE6;
+
+}
+

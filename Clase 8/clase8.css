@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(2, 156, 105);
+}
+
+.padre{ 
+    display: flex; 
+    flex-direction:row ;/* Responsable de que los elementos esten uno al lado del otro */
+    gap: 20px; /* Espaciar los elementos */
+    /* justify-content: center; /* Centrar los elementos en el eje horizontal */
+    justify-content:space-between ;
+
+}
+
+.hijo{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(67, 2, 128);
+    border: 1px solid black;
+    border-radius: 10px;
+}

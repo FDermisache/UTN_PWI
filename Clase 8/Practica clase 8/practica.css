@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+font-family: "DM Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+header{
+    display: flex;
+    background-color: rgb(253, 255, 255);
+    box-shadow: 2px 2px 3px rgb(95, 95, 95);
+    border: 5px solid transparent;
+    border-radius: 10px;
+    width: 670px;
+    height: 50px;
+    padding: 4px 4px;
+}
+
+.Padre{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Padre .icono{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lineaseparadora{
+    width: 1px;
+    height: 1.5rem;
+    align-self: center;
+    background-color: rgba(0,0,0,0.062);
+    margin: 0.40rem;
+}
