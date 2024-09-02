@@ -1,0 +1,50 @@
+header{
+    background-color: var(--color-primario);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Elemento fijado en la pagina, en este caso el header */
+    top: 0px;
+    z-index: 10;
+
+}
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 500px;
+    padding: 10px 60px 10px 15px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.205);
+    border: none;
+    border-radius: 2px;
+    border: 1.5px solid transparent;
+    font-size: 18px;
+}
+
+.search .btn-input{
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    height: 70%;
+    padding: 0px 16px; 
+    border-left: var(--border-light);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.icon-normal{
+    color: var(--color-icono);
+}
+
+.search input::placeholder{
+    color: #737373;
+} /* Llamamos un pseudoelemento, no hace falta ponerle una clase. lo llamamos con los : : */
+
+.search input:focus-visible{
+    border: 1.5px solid #2968c8;
+} /* Darle el borde al buscardor cuando lo toco, tambien lo ponemos en el search. input para que no se hunda cuando le damos click, solo que le ponemos de color transparente */
