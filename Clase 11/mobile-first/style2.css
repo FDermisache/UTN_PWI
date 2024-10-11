@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.padre{
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.hijo{
+    width: 320px;
+    height: 200px;
+    background-color: red;
+}
