@@ -1,0 +1,146 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: white;
+}
+
+.columnasFigma{
+    display: flex;
+    width: 100%;/*  */
+    background-color: rgba(252, 252, 252, 0.664);
+    border: 1px solid rgb(233, 233, 233);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.contenedor-btn{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+   
+
+}
+
+.btn-columnas{
+    display: flex;
+    justify-content: start;
+    width: 110%;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.registro-fila{
+    display: flex;
+    width: 100%;/*  */
+    border: none;
+    color: rgb(102, 112, 133);
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid rgb(233, 233, 233);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activo{
+    background-color: rgb(235, 252, 242);
+    border-radius: 20px;
+    padding: 8px 8px 8px 8px;
+    color: rgb(41, 140, 99);
+    font-weight: 700;
+}
+
+.Inactive{
+    background-color: rgb(242, 244, 247);
+    color: rgb(54, 66, 84);
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 8px 8px 8px 8px;
+}
+
+
+
+header{
+    margin-left: 15px;
+    width: 100%;/*  */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.text_blue{
+    color: rgb(0, 111, 255);
+    border-radius: 10px;
+    background-color: rgb(245, 249, 255);
+    padding: 5px 5px 5px 5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+span{
+    color: rgb(102, 112, 133);
+    font-family: 20px;
+}
+
+.contenedor_icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.bi-trash{
+    color: rgb(52, 64, 84);
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
+.bi-filter{
+    color:rgb(52, 64, 84);
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
+
+.bi-cloud-download{
+    color: rgb(52, 64, 84);
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.bi-plus{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(0, 111, 255);
+    padding: 10px 10px 10px 10px;
+    font-family: "Inter", sans-serif;
+}
+
